@@ -113,7 +113,7 @@ FRIENDPAGE_STRATEGY={
 # suffix：选填，自定义订阅后缀，如果填写此项，需要配合rules一起使用
 # rules：选填，解析类型，如果填写此项，需要配合suffix一起使用。目前支持atom、rss、wordpress
 SETTINGS_FRIENDS_LINKS={
-    "enable": False, # 是否启用配置项友链 True/False（此项用于针对还未适配的主题用户）
+    "enable": True, # 是否启用配置项友链 True/False（此项用于针对还未适配的主题用户）
     "list":[
         # 示例1：
         ["贰猹の小窝", "https://noionion.top/", "https://pub-noionion.oss-cn-hangzhou.aliyuncs.com/head.jpg"],
@@ -164,6 +164,7 @@ HTTP_PROXY = False
 # 除了在github配置的友链页面，支持添加更多友链页面，同时爬取
 # 但是数据保存在一起
 EXTRA_FRIENPAGE_LINK = [
+    "https://akilar.top/link/",
     # "https://noionion.top/",
     # "https://kaleb.top/link/",
 ]
